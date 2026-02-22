@@ -1,10 +1,10 @@
 .header {
-  background-image: url(../images/header-bg.png);
+  background-image: url(/src/images/header-bg.png);
   background-size: cover;
   background-position: right;
 
   @include on-desktop {
-    background-image: url(../images/desktop-background-photo.png);
+    background-image: url(/src/images/desktop-background-photo.png);
   }
 
   &__content {
